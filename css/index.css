@@ -1,0 +1,48 @@
+div#title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+span#arena {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+span#summary {
+    vertical-align: top;
+}
+
+span.summary {
+    font-size: 30px;
+}
+
+span.info {
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+
+div.arena {
+    display: table;
+}
+
+span.arena {
+    display: table-cell;
+    width: 15px;
+    height: 15px;
+}
+
+span.arena.snake-head {
+    background-color: blue;
+    box-shadow: 2px 3px #888888;
+}
+
+span.arena.snake-body {
+    background-color: red;
+    box-shadow: 2px 3px #888888;
+}
+
+span.arena.food {
+    background-color: green;
+    box-shadow: 2px 2px #888888;
+}
